@@ -1,6 +1,6 @@
 Ice Zero's tabula rasa
 ===
 
-[icyzeroice.github.io](icyzeroice.github.io)
+[icyzeroice.github.io](https://icyzeroice.github.io/)
 
 ## BUILDING???
