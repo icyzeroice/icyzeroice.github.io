@@ -1,5 +1,5 @@
 export {
-  cloud1,
+  remote1,
   localhost
 }
 
@@ -8,7 +8,7 @@ const localhost = {
   port: 1234
 };
 
-const cloud1 = {
+const remote1 = {
   hostname: '',
   port: ''
 };
