@@ -1,4 +1,4 @@
-# Code Style Guide
+# Coding Style Guide
 
 ### HTML
 
