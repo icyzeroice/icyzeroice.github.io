@@ -9,4 +9,11 @@ function addScript(filePath) {
 
 addScript('./src/lib/ConsoleInStyle.js');
 
-// AMD
+/**
+ * @name icyRMD.js
+ * @description Response Module Definition
+ * 
+ * 
+ * 
+ */
+
