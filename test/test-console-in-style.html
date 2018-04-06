@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Console In Style </title>
+</head>
+<body>
+    <script src="../src/lib/ConsoleInStyle.js"></script>
+    <script>
+        // demo 1
+        ConsoleInStyle();
+
+        // demo 2
+        ConsoleInStyle('sss', 'ddd');
+
+        // demo 3
+        ConsoleInStyle({
+            mes: 'ConsoleInStyle: ',
+            css: {
+                'font-size': '16px',
+                'color': 'red'
+            }
+        }, {
+            mes: 'v0.0.1',
+            css: {
+                'background-color': 'yellow',
+                'font-size': '14px',
+                'color': 'blue'
+            }
+        });
+    </script>
+</body>
+</html>

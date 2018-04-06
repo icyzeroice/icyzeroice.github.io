@@ -1,10 +1,14 @@
 /**
+ * Refer to: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+ * 
  * typeof ---> {
  * 
  *   "undefined"
  *   "number"
  *   "string"
  *   "object"
+ *   "function"
+ *   "symbol"
  * 
  * }
  * 
@@ -16,6 +20,9 @@
  *   "string"
  *   "array"
  *   "json"
+ *   "object"
+ *   "function"
+ *   "symbol"
  * 
  * }
  * 

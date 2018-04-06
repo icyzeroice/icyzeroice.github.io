@@ -15,7 +15,7 @@
 ### SUMMARY
 
 - [Coding Style](./coding-style.md)
-- [Compatibility]](./compatibility.md)
+- [Compatibility](./compatibility.md)
 
 ### Notice
 
