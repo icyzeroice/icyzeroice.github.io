@@ -4,6 +4,8 @@
   "description": "BLOG? ABSTRACT? ALL START FROM ZERO? JUST FOR FUN!",
   "main": "index.html",
   "scripts": {
+    "dev": "node ./build/dev.js",
+    "prod": "node ./build/prod.js",
     "test": "node ./test/server.js"
   },
   "repository": {

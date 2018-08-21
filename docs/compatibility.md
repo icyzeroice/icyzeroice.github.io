@@ -1,5 +1,7 @@
 # Compatibility
 
+> No way! I will use the latest feature!
+
 | Browsers | IE | Edge | Firefox | Chrome | Safari | Opera | vivaldi |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | [let](https://caniuse.com/#search=let) | 11 | >= 12 | >= 44 | >= 49 | >= 10 | >= 36 | |
