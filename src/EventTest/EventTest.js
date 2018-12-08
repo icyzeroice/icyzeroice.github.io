@@ -1,7 +1,12 @@
-window.addEventListener('keydown', keyHandler, {
-  capture: false
-})
+window.addEventListener('keydown', eventDecorator('keydown'))
+window.addEventListener('click', eventDecorator('click'))
+window.addEventListener('mousedown', eventDecorator('mousedown'))
 
-function keyHandler(e) {
-  console.log(e)
+function eventDecorator(label, fn) {
+
+  return function eventPrinter(e) {
+    label ? console.log(`%c[${label}]`, 'color:#0000ff', e)
+          : console.log(e)
+    fn && fn(e)
+  }
 }

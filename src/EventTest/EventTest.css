@@ -1,0 +1,41 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* HEADER */
+header {
+  flex-basis: 150px;
+  background-color: aqua;
+}
+
+
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.parent {
+  display: flex;
+  flex-grow: 1;
+  background-color: azure;
+}
+
+.child {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* FOOTER */
+footer {
+  flex-basis: 100px;
+  background-color: aquamarine;
+}
