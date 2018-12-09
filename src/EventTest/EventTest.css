@@ -53,3 +53,14 @@ footer {
   flex-basis: 100px;
   background-color: aquamarine;
 }
+
+/* TOAST */
+.toast {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
