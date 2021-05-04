@@ -133,5 +133,5 @@ const toast = new Toast()
 
 EventTest.add(EventTest.__TYPE__.CLICK, e => toast.display(`(${e.x}, ${e.y}), client(${e.clientX}, ${e.clientY}), layer(${e.layerX}, ${e.layerY}), offset(${e.offsetX}, ${e.offsetY}), page(${e.pageX}, ${e.pageY}), screen(${e.screenX}, ${e.screenY})`))
 EventTest.add(EventTest.__TYPE__.MOUSEDOWN, e => toast.display(`(${e.x}, ${e.y}), client(${e.clientX}, ${e.clientY}), layer(${e.layerX}, ${e.layerY}), offset(${e.offsetX}, ${e.offsetY}), page(${e.pageX}, ${e.pageY}), screen(${e.screenX}, ${e.screenY})`))
-EventTest.add(EventTest.__TYPE__.KEYDOWN, e => toast.display(`key: ${e.key}, code: ${e.code}`))
+EventTest.add(EventTest.__TYPE__.KEYDOWN, e => toast.display(`key: ${e.key}, code: ${e.code}, keyCode: ${e.keyCode}`))
 
